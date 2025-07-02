@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr"> <!-- Indique que le texte est écrit en français -->
+<head>
+    <meta charset="UTF-8"> <!-- L'encodage des caractères -->
+    <meta name="author" content="gjoresk231"> <!-- L'auteur de la page -->
+    <title>À propos</title> <!-- Le titre de la page -->
+    <link rel="stylesheet" media="screen" href="styles/styles.css"> <!-- Lier la page HTML avec le fichier de styles CSS -->
+    <link rel="stylesheet" media="screen" href="styles/apropos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configurer la vue pour les appareils mobiles -->
+</head>
+<body>
+	<header> <!-- En-tete de la page -->
+		<h2>Le désert du Namib</h2> 
+		<nav class="menu"> <!-- Menu déroulant -->
+			<section class="categorie"> <!-- Section du menu avec titre et liens -->
+				<h3><a class="titre" href = "accueil.html">Accueil</a></h3>
+					<ul>
+						<li><a href="apropos.html">À propos</a></li><!-- Lien vers la page "apropos.html" -->
+						<li><a href="geographie.html">Géographie</a></li><!-- Lien vers la page "geographie.html" -->
+						<li><a href="visites.html">Visites</a></li><!-- Lien vers la page "visites.html" -->
+						<li><a href="galerie.html">Galerie</a></li><!-- Lien vers la page "galerie.html" -->
+					</ul>
+			</section>
+			<section class="categorie">
+				<h3><a class="titre" href = "apropos.html">À propos</a></h3>
+					<ul>
+						<li><a href="#rep">Représentations culturelles</a></li>
+						<li><a href="#sites">Sites remarquables</a></li>
+						<li><a href="#faits">Faits intéressants</a></li>
+					</ul>
+			</section>
+			<section class="categorie">
+				<h3><a class="titre" href = "geographie.html">Géographie</a></h3>
+					<ul>
+						<li><a href="geographie.html#top">Topographie</a></li><!-- Lien vers la section avec l'ID "top" dans la page "geographie.html" -->
+						<li><a href="geographie.html#climat">Climat</a></li><!-- Lien vers la section avec l'ID "climat" dans la page "geographie.html" -->
+						<li><a href="geographie.html#eco">Écosystème</a></li><!-- Lien vers la section avec l'ID "eco" dans la page "geographie.html" -->
+					</ul>
+			</section>
+			<section class="categorie">
+				<h3><a class="titre" href = "visites.html">Visites</a></h3>
+					<ul>
+						<li><a href="visites.html#adeux">Partir à deux</a></li><!-- Lien vers la section avec l'ID "adeux" dans la page "visites.html" -->
+						<li><a href="visites.html#pg">Partir en petite groupe</a></li><!-- Lien vers la section avec l'ID "pg" dans la page "visites.html" -->
+						<li><a href="visites.html#safari">Safari</a></li><!-- Lien vers la section avec l'ID "safari" dans la page "visites.html" -->
+						<li><a href="visites.html#nature">Nature</a></li><!-- Lien vers la section avec l'ID "nature" dans la page "visites.html" -->
+						<li><a href="visites.html#insolite">Insolite</a></li><!-- Lien vers la section avec l'ID "insolite" dans la page "visites.html" -->
+						<li><a href="visites.html#confort">Version confort</a></li><!-- Lien vers la section avec l'ID "confort" dans la page "visites.html" -->
+					</ul>
+			</section>
+			<section class="categorie">
+				<h3><a class="titre" href = "galerie.html">Galerie</a></h3>
+					<ul>
+						<li><a href="galerie.html#sos">Sossusvlei (Sesriem)</a></li><!-- Lien vers la section avec l'ID "sos" dans la page "galerie.html" -->
+						<li><a href="galerie.html#cds">Côte des Squelettes</a></li><!-- Lien vers la section avec l'ID "cds" dans la page "galerie.html" -->
+						<li><a href="galerie.html#cc">Cape Cross</a></li><!-- Lien vers la section avec l'ID "cc" dans la page "galerie.html" -->
+					</ul>
+			</section>
+			<form class="butto"  role="search">
+  				<input type="search" name="q" placeholder="Recherche..." >
+  				<button>
+  					<img src="images/loop.png" alt="loop">
+  				</button>
+			</form>
+		</nav>
+	</header>
+	<main> <!-- Contenu principale -->
+		<aside> <!-- Contenu latéral -->
+			<h1><strong>{[</strong> Le désert du Namib <strong>]}</strong></h1>
+			<p>À propos</p> 
+		</aside>
+	</main>
+	<article class="cache"> <!-- Contenu de l'article -->
+		<h3 id="rep">Représentations culturelles</h3>
+		<section class="repcul"> <!-- Sections et sous-sections avec des id pour la navigation interne -->
+		<!-- id="rep", id="sites", id="faits" sont utilisés pour créer des liens internes. Lorsqu'un utilisateur clique sur un lien pointant vers l'un de ces ID, la page fera défiler jusqu'à la section correspondante. id="image", id="image1", id="image2", id="image3" sont utilisés pour les liens d'images et les fenêtres contextuelles. Les attributs id aident à lier les images à leurs versions en taille réelle.-->
+			<h2>Section1</h2>
+			<p>
+				<figure class="fig"> <!-- Figure avec des images, légendes et liens -->
+					<a href="#image1" id="image">
+						<img src="images/gens.jpeg" alt="Gens">
+					</a>
+					<a class="cacherimage" href="#image" id="image1" >
+						<img class="viewer" src="images/gens.jpeg" alt="Gens">
+					</a>
+					<figcaption class="source">
+						Source: byNATIV
+					</figcaption>
+				</figure>
+			<p>Le désert du Namib : le plus vieux désert du monde avec les dunes de sable les plus hautes du monde… mais où sont tous les gens ? La Namibie est le deuxième pays le moins peuplé du monde ! Malgré sa faible population, elle conserve une grande diversité culturelle résultant de ses nombreuses colonisations au fil des décennies. Il est habité depuis la préhistoire par les peuples San, Damara et nomades Nama.L'anglais, l'allemand et l'afrikaans sont les langues officielles du pays, mais les langues les plus courantes sont l'oshiwambo, le khoekhoegowab, le ruKwangali et l'otjiherero. Au total, plus de 30 langues différentes sont parlées dans ce pays culturellement riche et depuis l'indépendance de la Namibie en 1990, sa gouvernance démocratique multipartite cherche à protéger ce patrimoine inestimable.Les Namibiens adorent le football et le cricket, et l'équipe nationale namibienne de rugby a participé à 6 coupes du monde ! L’exploitation minière, l’agriculture, l’industrie manufacturière et l’écotourisme sont le moteur de l’économie de la Namibie, bien qu’il s’agisse du pays le plus sec d’Afrique subsaharienne.</p>
+		</section>
+		<h3 id="sites">Sites remarquables</h3>
+		<section class="sitesrem">
+			<h2>Section</h2>
+			<p><i>Sossusvlei (Sesriem)</i> est la partie la plus accessible de la mer de sable. Une route de 65 km dans le Parc national du Namib-Naukluft permet d’accéder à partir de Sesriem aux magnifiques dunes orange de Sossusvlei. Au pied des dunes se trouvent les vlei, des étendues plates rarement remplies d’eau. La plus célèbre est Dead Vlei avec ses arbres morts en contrebas de l'immense dune Big Daddy. À Sesriem, un canyon profond de 40 m et long de 3 km a été sculpté autrefois par la rivière Sesriem.<i>La côte des Squelettes</i> du Kaokoland et, par extension, toute la côte namibienne portent le nom de côte des Squelettes, évocateur du sort des infortunés naufragés, à la suite de la combinaison d’un fort courant marin, de brouillards fréquents et d’une côte désertique inhospitalière. La côte est parsemée d’os de baleines et d’épaves de navires échoués et partiellement recouverts par le sable.Le navigateur portugais Diogo Cão fit ériger à cet endroit une croix de pierre (padrao) en 1486 pour marquer le point le plus au sud jamais atteint par des Européens en Afrique à cette date. Aujourd’hui, <i>Cape Cross</i> abrite une très importante colonie d’otaries à fourrure (Arctocephalus pusillus).</p>
+				<figure class="fig">
+					<a href="#image2" id = "image3">
+						<img src="images/dunes.jpg" alt="Dunes">
+					</a>
+					<a class="cacherimage" href="#image3" id = "image2">
+						<img class="viewer" src="images/dunes.jpg" alt="Dunes">
+					</a>
+					<figcaption class="source">
+						Source: Wikipedia
+					</figcaption>
+				</figure>
+		</section>
+		<h3 id="faits">Faits intéressants</h3>
+		<section class="faitsint">
+			<h2>Section</h2>
+			<ul>
+        			<li>
+        				<p>Il est facile d’imaginer que le monde a toujours été tel que nous l’avons trouvé. Prenez le Sahara, par exemple, qui, il y a à peine 12 000 ans, était un mélange de savanes verdoyantes et de forêts. Elle était habitée par une mégafaune africaine charismatique qui nous donne tous envie de faire un safari. Ce n’est pas le cas du désert du Namib. Le Namib est sec depuis au moins 55 millions d'années, et peut-être jusqu'à 80 millions d'années. Même s’il ne s’agit peut-être pas du plus grand désert du monde, c’est certainement le plus ancien. Certaines parties du Namib rivalisent avec le désert d’Atacama en Amérique du Sud en tant qu’endroit le plus sec de la planète. Certaines régions ne reçoivent en moyenne que 2 mm de pluie par an.C’est sur la côte des squelettes que les vagues de l’océan Atlantique viennent lécher les dunes du Désert du Namib. Le contraste est saisissant. Cet endroit inhospitalier s’appelle ainsi en raison des centaines de squelettes de baleine et d’otarie qui s’y trouvent. Régulièrement source d’un fort courant marin et d’un brouillard épais, de nombreux navires s’y sont échoués. L’endroit est d’une beauté captivante. Cape Cross doit son nom à une croix de pierre qui y fut érigée en 1486 par un navigateur portugais. C’était à l’époque l’endroit le plus au sud atteint par des Européens en Afrique. L’endroit accueille de nos jours une colonie d’otaries à fourrure qui compte plusieurs milliers d’individus. C’est un spectacle rare qui vaut vraiment le détour.</p>
+					<figure>
+						<img src="images/images.jpeg" alt="Image">
+						<figcaption class="source">
+							Source: Untravelled
+						</figcaption>
+					</figure>
+				</li>
+        			<li>
+        				<p>Il attrape les voyageurs à chaque fois. Lorsque vous conduisez depuis l’intérieur de la Namibie jusqu’à la côte de dunes de sable, le souffle d’air froid et les brumes peuvent être profondément troublants, voire surnaturels. C’est une sensation étrange de regarder la mer à travers le brouillard du haut d’une dune de sable et d’avoir soudainement froid. Le désert du Namib connaît environ 180 jours de brouillard chaque année. Cela est dû à l’air froid du courant offshore de Benguela qui s’écrase contre l’air chaud des terres arides de l’intérieur.</p>
+					<figure>
+						<img src="images/climat.jpeg" alt="Climat">
+						<figcaption class="source">
+							Source: Arroukatche
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<p>Personne ne sait combien de navires ont sombré le long des côtes arides de la Namibie. L’océan et les dunes de sable en mouvement constant ont conspiré pour faire disparaître bon nombre d’entre elles. Ceux qui restent rappellent la force élémentaire qui contrôle tout le long de cette côte. Les dunes de sable sont si puissantes que leur marche incessante a conquis des terres sur la mer. Certaines épaves autrefois emportées par les vagues se trouvent, moins d'un siècle plus tard, à près d'un mile à l'intérieur des terres. Prenez l'Eduard Bohlen, qui a coulé au large de Walvis Bay en 1909 mais qui est désormais abandonné à seulement 1 km de la mer. Ou encore l'Otavi, un cargo qui s'est échoué plus au sud en 1945. Il se trouve désormais au sommet d'une dune de sable, à l'un des points les plus élevés de cette côte.</p>
+					<figure>
+						<img src="images/squelletes.jpg" alt="Squelletes">
+						<figcaption class="source">
+							Source: Entendues Sauvages
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<p>Il n’y a pas si longtemps, ce n’était pas seulement le brouillard tourbillonnant qui cachait une grande partie du désert à la vue. Jusqu'en 2009, la région de Sperrgebiet, aujourd'hui un parc national de 16 000 km2 connu sous le nom de Tsau Khaeb, était interdite. C’était un lieu secret rempli de mines de diamants abandonnées, de mers de sable dangereuses et de toutes sortes de rumeurs. De nos jours, c’est encore réservé aux aventuriers. Cependant, ses secrets sont révélés, notamment la découverte d'anciennes villes minières fantomatiques autrefois englouties par les sables. Et les apparences peuvent être trompeuses. Bien que ses horizons soient remplis de sable apparemment pour l’éternité, le parc a été reconnu comme l’un des 25 « points chauds » mondiaux exceptionnels d’une biodiversité unique. Il y a de tout ici, de la grenouille des pluies du désert, menacée, à l’une des seules populations de chevaux sauvages d’Afrique.</p>
+					<figure>
+						<img src="images/sper.jpg" alt="Sper">
+						<figcaption class="source">
+							Source: Wikipedia
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
+		</section>
+	</article>
+	<footer> <!-- Pied de page -->
+		<p>Copyright &copy; Andrea Gjoreska, étudiante de L1 de l'<abbr title="Universite Caen Normandie">UCN</abbr>. Tous droits réservés.</p> <!-- Mention de droits d'auteur -->
+	</footer>
+</body>
+</html>

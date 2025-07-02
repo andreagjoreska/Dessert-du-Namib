@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr"> <!-- Indique que le texte est écrit en français -->
+<head>
+    <meta charset="UTF-8"> <!-- L'encodage des caractères -->
+    <meta name="author" content="gjoresk231"> <!-- L'auteur de la page -->
+    <title>Le désert de Namib</title> <!-- Le titre de la page -->
+    <link rel="stylesheet" media="screen" href="styles/styles.css"> <!-- Lier la page HTML avec le fichier de styles CSS -->
+    <meta name="viewport" content="initial-scale=1"><!-- Configurer la vue pour les appareils mobiles -->
+</head>
+<body>
+	<header> <!-- En-tete de la page -->
+		<h2>Le désert du Namib</h2> 
+		<nav class="menu"> <!-- Menu déroulant -->
+			<section class="categorie"> <!-- Section du menu avec titre et liens -->
+				<h3><a class="titre" href = "accueil.html">Accueil</a></h3>
+					<ul>
+						<li><a href="apropos.html">À propos</a></li><!-- Lien vers la page "apropos.html" -->
+						<li><a href="geographie.html">Géographie</a></li><!-- Lien vers la page "geographie.html" -->
+						<li><a href="visites.html">Visites</a></li><!-- Lien vers la page "visites.html" -->
+						<li><a href="galerie.html">Galerie</a></li><!-- Lien vers la page "galerie.html" -->
+					</ul>
+			</section>
+  			<section class="categorie">
+				<h3><a class="titre" href = "apropos.html">À propos</a></h3>
+					<ul>
+						<li><a href="apropos.html#rep">Représentations culturelles</a></li><!-- Lien vers la section avec l'ID "rep" dans la page "apropos.html" -->
+						<li><a href="apropos.html#sites">Sites remarquables</a></li><!-- Lien vers la section avec l'ID "sites" dans la page "apropos.html" -->
+						<li><a href="apropos.html#faits">Faits intéressants</a></li><!-- Lien vers la section avec l'ID "faits" dans la page "apropos.html" -->
+					</ul>
+			</section>
+			<section class="categorie">
+				<h3><a class="titre" href = "geographie.html">Géographie</a></h3>
+					<ul>
+						<li><a href="geographie.html#top">Topographie</a></li><!-- Lien vers la section avec l'ID "top" dans la page "geographie.html" -->
+						<li><a href="geographie.html#climat">Climat</a></li><!-- Lien vers la section avec l'ID "climat" dans la page "geographie.html" -->
+						<li><a href="geographie.html#eco">Écosystème</a></li><!-- Lien vers la section avec l'ID "eco" dans la page "geographie.html" -->
+					</ul>
+			</section>
+			<section class="categorie">
+				<h3><a class="titre" href = "visites.html">Visites</a></h3>
+					<ul>
+						<li><a href="visites.html#adeux">Partir à deux</a></li><!-- Lien vers la section avec l'ID "adeux" dans la page "visites.html" -->
+						<li><a href="visites.html#pg">Partir en petite groupe</a></li><!-- Lien vers la section avec l'ID "pg" dans la page "visites.html" -->
+						<li><a href="visites.html#safari">Safari</a></li><!-- Lien vers la section avec l'ID "safari" dans la page "visites.html" -->
+						<li><a href="visites.html#nature">Nature</a></li><!-- Lien vers la section avec l'ID "nature" dans la page "visites.html" -->
+						<li><a href="visites.html#insolite">Insolite</a></li><!-- Lien vers la section avec l'ID "insolite" dans la page "visites.html" -->
+						<li><a href="visites.html#confort">Version confort</a></li><!-- Lien vers la section avec l'ID "confort" dans la page "visites.html" -->
+					</ul>
+			</section>
+			<section class="categorie">
+				<h3><a class="titre" href = "galerie.html">Galerie</a></h3>
+					<ul>
+						<li><a href="galerie.html#sos">Sossusvlei (Sesriem)</a></li><!-- Lien vers la section avec l'ID "sos" dans la page "galerie.html" -->
+						<li><a href="galerie.html#cds">Côte des Squelettes</a></li><!-- Lien vers la section avec l'ID "cds" dans la page "galerie.html" -->
+						<li><a href="galerie.html#cc">Cape Cross</a></li><!-- Lien vers la section avec l'ID "cc" dans la page "galerie.html" -->
+					</ul>
+			</section>
+			<form class="butto"  role="search">
+  				<input type="search" name="q" placeholder="Recherche..." >
+  				<button>
+  					<img src="images/loop.png" alt="loop">
+  				</button>
+			</form>
+		</nav>
+	</header>
+	<main> <!-- Contenu principale -->
+		<aside> <!-- Contenu latéral -->
+			<h1><strong>{[</strong> Le désert du Namib <strong>]}</strong></h1>
+			<p> Trouvez le splendeur que le désert du Namib offre en un <a href="galerie.html">seul clic! </a></p> 
+		</aside>
+	</main>
+	<article> <!-- Contenu de l'article -->
+		<h3>Article</h3>
+		<section class="images"> <!-- Section d'images -->
+			<h3>Images</h3>
+			<figure class="conaissancesgen"> <!-- Figure avec des images, légendes et liens -->
+				<a href="apropos.html"><img src="images/animal.jpg" alt="Animal"></a>
+				<figcaption>
+					<p class="source">Source: BradtGuides</p>
+					<a href="apropos.html"><p class="links">Connaissances générales</p></a>
+				</figcaption>
+			</figure>
+			<figure class="geographie">
+				<a href="geographie.html"><img src="images/Namib_Desert_pillars.jpg" alt="Namib Desert pillars"></a>
+				<figcaption>
+					<p class="source">Source: <abbr title="European Space Agency">ESA</abbr></p>
+					<a href="geographie.html"><p class="links">Géographie de Namibie</p></a>
+				</figcaption>
+			</figure>
+			<figure class="suggestions">
+				<a href="visites.html"><img src="images/balloon.jpg" alt="Balloon"></a>
+				<figcaption>
+					<p class="source">Source: Got2Globe</p>
+					<a href="visites.html"><p class="links">Nos suggestions de voyage</p></a>
+				</figcaption>
+			</figure>
+		</section>
+		<section> <!-- Section avec une video -->
+			<h5>Video</h5>
+		 	<video width="320" height="240" controls autoplay muted>  <!-- Autoplay muted signifie que la video va commencer authomatiquement et sans son. -->
+  				<source src="video/desert.mp4" type="video/mp4">
+			</video> 
+			<p>Vidéo qui présente le désert du Namib, réalisée par Deon van Royeen.</p>
+		</section>
+	</article>
+	<footer> <!-- Pied de page -->
+		<p>Copyright &copy; Andrea Gjoreska, étudiante de L1 de l'<abbr title="Universite Caen Normandie">UCN</abbr>. Tous droits réservés.</p> <!-- Mention de droits d'auteur -->
+	</footer>
+</body>
+</html>

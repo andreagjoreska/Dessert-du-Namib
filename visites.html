@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr"> <!-- Indique que le texte est écrit en français -->
+<head>
+    <meta charset="UTF-8"> <!-- L'encodage des caractères -->
+    <meta name="author" content="gjoresk231"> <!-- L'auteur de la page -->
+    <title>Visites</title> <!-- Le titre de la page -->
+    <link rel="stylesheet" media="screen" href="styles/styles.css"> <!-- Lier la page HTML avec le fichier de styles CSS -->
+    <link rel="stylesheet" media="screen" href="styles/visites.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configurer la vue pour les appareils mobiles -->
+    <body>
+	<header> <!-- En-tete de la page -->
+		<h2>Le désert du Namib</h2> 
+		<nav class="menu"> <!-- Menu déroulant -->
+			<section class="categorie"> <!-- Section du menu avec titre et liens -->
+				<h3><a class="titre" href = "accueil.html">Accueil</a></h3>
+					<ul>
+						<li><a href="apropos.html">À propos</a></li><!-- Lien vers la page "apropos.html" -->
+						<li><a href="geographie.html">Géographie</a></li><!-- Lien vers la page "geographie.html" -->
+						<li><a href="visites.html">Visites</a></li><!-- Lien vers la page "visites.html" -->
+						<li><a href="galerie.html">Galerie</a></li><!-- Lien vers la page "galerie.html" -->
+					</ul>
+			</section>
+  			<section class="categorie">
+				<h3><a class="titre" href = "apropos.html">À propos</a></h3>
+					<ul>
+						<li><a href="apropos.html#rep">Représentations culturelles</a></li><!-- Lien vers la section avec l'ID "rep" dans la page "apropos.html" -->
+						<li><a href="apropos.html#sites">Sites remarquables</a></li><!-- Lien vers la section avec l'ID "sites" dans la page "apropos.html" -->
+						<li><a href="apropos.html#faits">Faits intéressants</a></li><!-- Lien vers la section avec l'ID "faits" dans la page "apropos.html" -->
+					</ul>
+			</section>
+			<section class="categorie">
+				<h3><a class="titre" href = "geographie.html">Géographie</a></h3>
+					<ul>
+						<li><a href="geographie.html#top">Topographie</a></li><!-- Lien vers la section avec l'ID "top" dans la page "geographie.html" -->
+						<li><a href="geographie.html#climat">Climat</a></li><!-- Lien vers la section avec l'ID "climat" dans la page "geographie.html" -->
+						<li><a href="geographie.html#eco">Écosystème</a></li><!-- Lien vers la section avec l'ID "eco" dans la page "geographie.html" -->
+					</ul>
+			</section>
+			<section class="categorie">
+				<h3><a class="titre" href = "visites.html">Visites</a></h3>
+					<ul>
+						<li><a href="#adeux">Partir à deux</a></li>
+						<li><a href="#pg">Partir en petite groupe</a></li>
+						<li><a href="#safari">Safari</a></li>
+						<li><a href="#nature">Nature</a></li>
+						<li><a href="#insolite">Insolite</a></li>
+						<li><a href="#confort">Version confort</a></li>
+					</ul>
+			</section>
+			<section class="categorie">
+				<h3><a class="titre" href = "galerie.html">Galerie</a></h3>
+					<ul>
+						<li><a href="galerie.html#sos">Sossusvlei (Sesriem)</a></li><!-- Lien vers la section avec l'ID "sos" dans la page "galerie.html" -->
+						<li><a href="galerie.html#cds">Côte des Squelettes</a></li><!-- Lien vers la section avec l'ID "cds" dans la page "galerie.html" -->
+						<li><a href="galerie.html#cc">Cape Cross</a></li><!-- Lien vers la section avec l'ID "cc" dans la page "galerie.html" -->
+					</ul>
+			</section>
+			<form class="butto"  role="search">
+  				<input type="search" name="q" placeholder="Recherche..." >
+  				<button>
+  					<img src="images/loop.png" alt="loop">
+  				</button>
+			</form>
+		</nav>
+	</header>
+	<main> <!-- Contenu principale -->
+		<aside> <!-- Contenu latéral -->
+			<h1><strong>{[</strong> Le désert du Namib <strong>]}</strong></h1>
+			<p>Choisissez le voyage de vos rêves</p> 
+		</aside>
+	</main>
+	<article > <!-- Contenu de l'article -->
+		<h5>Article</h5>
+		<section class="grille">
+			<h2>La Namibie selon vos envies</h2>
+			<figure><!-- figure avec une legende -->
+				<a href="#adeux"><img src="images/deuxx.jpg" alt="a deux"></a>
+				<figcaption>Partir à deux</figcaption>
+			</figure>
+			<figure>
+				<a href="#pg"><img src="images/groupe.jpg" alt="Groupe"></a>
+				<figcaption>Partir en petite groupe</figcaption>
+			</figure>
+			<figure>
+				<a href="#safari"><img src="images/safari.jpg" alt="safari"></a>
+				<figcaption>Safari</figcaption>
+			</figure>
+			<figure>
+				<a href="#nature"><img src="images/nature.jpeg" alt="nature"></a>
+				<figcaption>Nature</figcaption>
+			</figure>
+			<figure>
+				<a href="#insolite"><img src="images/insolite.jpg" alt="insolite"></a>
+				<figcaption>Insolite</figcaption>
+			</figure>
+			<figure>
+				<a href="#confort"><img src="images/confort.jpg" alt="confort"></a>
+				<figcaption>Version confort</figcaption>
+			</figure>
+		</section>
+		<section class="tours">
+		<!-- Sections et sous-sections avec des id pour la navigation interne -->
+		<!-- id="adeux", id="pg", id="safari", id="nature", id="insolite", id="confort" sont utilisés pour créer des liens internes. Lorsqu'un utilisateur clique sur un lien pointant vers l'un de ces ID, la page fera défiler jusqu'à la section correspondante. -->
+			<h2 id="adeux">Romance en terre lointaine</h2>
+			<p>La Namibie et ses échappées belles dans des espaces infinis, loin de tout bruit et agitation se prête tout à fait à un voyage romantique.</p>
+			<p>Imaginez-vous vous promener main dans la main sur les bords de la lagune de Walvis Bay et observer des nuées de flamands roses venus élire domicile ou partir à la recherche des éléphants du désert à Twyfelfontein.</p>
+			<p>Le soir, vous partagerez un dîner romantique sous les étoiles dans un lodge idéalement situé pour vous permettre le lendemain matin de partir en safari sur les pistes à la rencontre des centaines d’espèces de mammifères dans le Parc National d’Etosha.</p>
+			<section class="figure">
+				<h5>Figure</h5>
+				<img src="images/car.jpg" alt="voiture">
+				<figure>
+					<figcaption>
+						<p>13 jours / 10 nuits</p>
+						<p>dès 3 690 €</p>
+						<p>Circuit exclusif de 4 à 8 voyageurs</p>
+					</figcaption>
+				</figure>
+				<img src="images/map1.svg" alt="map">
+			</section>
+			<h2 id="pg">Convivialité et authenticité</h2>
+			<p>Avec un maximum de 9 personnes, votre voyage en petit groupe en Namibie est synonyme d’une aventure à la fois conviviale et authentique. Avec ce nombre réduit de participants, votre échappée namibienne prend des allures de voyage exclusif.</p>
+<p>Loin du tourisme de masse, vous vous approcherez au plus près des animaux et des locaux, et vous pourrez vous aventurer hors des sentiers battus pour une découverte plus intime de ce pays grandiose qui réserve aux explorateurs et amoureux de la nature un dépaysement total.</p>
+			<section class="figure">
+				<h5>Figure</h5>
+				<img src="images/3.jpeg" alt="tour">
+				<figure>
+					<figcaption>
+						<p>16 jours / 13 nuits</p>
+						<p>dès 4 390 €</p>
+						<p>Circuit exclusif de 4 à 8 voyageurs</p>
+					</figcaption>
+				</figure>
+				<img src="images/map2.svg" alt="map">
+			</section>
+			<h2 id="safari">Bienvenue en terre sauvage</h2>
+			<p>Vous aurez, lors de votre safari en Namibie, la possibilité d’approcher au plus près lions, guépards, zèbres, rhinocéros, onyx, girafes et éléphants dans leur environnement naturel.</p>
+			<p>En 4x4, à pied ou à cheval, vos safaris dans le parc Etosha, l'une des plus grandes réserves animalières d'Afrique, qui abrite quelques 114 espèces de mammifères et 340 espèces d'oiseaux, vous promettent des moments forts en émotion et des souvenirs mémorables.</p>
+			<section class="figure">
+				<h5>Figure</h5>
+				<img src="images/leo.jpeg" alt="leo">
+				<figure>
+					<figcaption>
+						<p>16 jours / 13 nuits</p>
+						<p>dès 5 190 €</p>
+						<p>Circuit exclusif de 4 à 8 voyageurs</p>
+					</figcaption>
+				</figure>
+				<img src="images/map3.svg" alt="map">
+			</section>
+			<h2 id="nature">Des paysages en panoramique</h2>
+			<p>C’est dans des décors changeants et époustouflants que vous emmène votre voyage nature en Namibie, vous garantissant un dépaysement total.</p>
+			<p>Vous allez vous émerveiller devant les étendues plates et caillouteuses du désert du Kalahari et les immenses dunes de sable rouge du Parc National de Namib-Naukluft.</p>
+			<p>Votre circuit nature vous emmènera faire une excursion dans les gorges du canyon de Sesriem ou sur les hauteurs du plateau de Waterberg pour des vues absolument grandioses sur la vallée.</p>
+			<p>Et pendant tout votre voyage en Namibie, vous attendrez le lever ou le coucher de soleil quand la lumière déploie mille et une teintes. Vous n'avez rien d'autre à faire que de regarder la nature faire son show, juste sous vos yeux.</p>
+			<p>Un spectacle unique à ne rater sous aucun prétexte.</p>
+			<section class="figure">
+				<h5>Figure</h5>
+				<img src="images/tree.jpg" alt="arbre">
+				<figure>
+					<figcaption>
+						<p>15 jours / 12 nuits</p>
+						<p>dès 2 590 €</p>
+						<p>Autotour en liberté</p>
+					</figcaption>
+				</figure>
+				<img src="images/map4.svg" alt="map">
+			</section>
+			<h2 id="insolite">De découverte en découverte</h2>
+			<p>C’est une belle aventure insolite que vous promet votre voyage en Namibie.</p>
+			<p>Des pétroglyphes datant de 6 000 ans, à la tradition de la coloration de la peau en rouge chez les Himbas, jusqu’au plantes fossiles dont certaines ont plus de 1500 ans, vous irez de découvertes en découvertes dans un pays où deux millions de personnes vivent sur un territoire aussi grand que la France, et où les arbres sont aussi rares que les habitants. Et pourtant, la variété des paysages est à couper le souffle. On passe brutalement des savanes ponctuées de chaos de granit aux montagnes arides du Kaokoland, puis aux dunes orangées du Namib, le plus vieux désert au monde.</p>
+			<p>Partez vers ces terres vierges où vivent quelques 114 espèces de mammifères, et préparez-vous à une aventure exaltante.</p>
+			<section class="figure">
+				<h5>Figure</h5>
+				<img src="images/ciel.jpg" alt="ciel">
+				<figure>
+					<figcaption>
+						<p>13 jours / 10 nuits</p>
+						<p>dès 2 690 €</p>
+						<p>Autotour en liberté</p>
+					</figcaption>
+				</figure>
+				<img src="images/map5.svg" alt="map">
+			</section>
+			<h2 id="confort">Comparez et vous préfèrerez...</h2>
+			<p>Partir sur un itinéraire très complet avec le Fish River Canyon, le fleuve Orange, en passant par les sublimes paysages du Namib Rand et du désert du Kalahari où les safaris sont très complémentaires à ceux du parc d'Etosha. </p>
+			<section class="figure">
+				<h5>Figure</h5>
+				<img src="images/con.jpg" alt="confort">
+				<figure>
+					<figcaption>
+						<p>22 jours / 19 nuits</p>
+						<p>dès 4 350 €</p>
+						<p>Autotour en liberté</p>
+					</figcaption>
+				</figure>
+				<img src="images/map6.jpg" alt="map3">
+			</section>
+		</section>
+	</article>
+	<aside class="formulaire"> <!-- Balise d'aside avec la classe "formulaire" -->
+		<h2>Si vous êtes intéressé par un voyage ou si vous avez une question, remplissez le formulaire suivant : </h2>
+		<form method="post">  <!-- Balise de formulaire avec la méthode "post" -->
+   			<fieldset>
+    	  			<legend>Saisie des identifiants </legend>
+          				<label> <!-- Champ pour saisir le nom avec une limite de caractères -->
+          					Votre nom et prenom:
+          					<input type="text" name="nom" required maxlength="20">
+          				</label>
+          				<label> <!-- Champ pour saisir l'email avec validation requise et un espace réservé -->
+          					Votre email :
+          					<input type="email" name="adresse-email" required placeholder="toto@gmail.com" size="40" >
+          				</label>
+          		</fieldset>
+   	  		<fieldset>
+    	  			<legend>Quelques renseignements sur vous</legend>
+          				<label><!-- Champ pour saisir le numéro de téléphone avec une longueur minimale et maximale spécifiée -->
+          					Votre téléphone (10 chiffres sans espace) : 
+          					<input type="tel" name="telephone" size="10" placeholder="0612345678" minlength="10" maxlength="10">
+          				</label>
+          				<label>
+          					Votre adresse : 
+          					<input type="text" name="adresse" maxlength="20" size="40"><!-- Champ pour saisir l'adresse -->
+          				</label>
+          				<label>
+          					Date de naissance : 
+          					<input type="date" name="naissance"><!-- Champ pour saisir la date de naissance -->
+          				</label> 		 
+          		</fieldset>
+   	  		<fieldset>
+    	  			<legend>Quelques statistiques</legend>	
+          				<label><!-- Menu déroulant pour choisir le pays de naissance -->
+          					Votre pays de naissance: 
+      						<select name="pays" id="menu">
+       							<option value="f">France</option>
+        						<option value="m">Maroc</option>
+        						<option value="g">Guinée</option>
+        						<option value="c">Chine</option>
+        						<option value="a">Angleterre</option>
+        						<option value="europe">Autre pays européen</option>
+        						<option value="monde">Autre pays hors Europe</option>
+      						</select>
+        			  	</label>  	
+          				<label> <!-- Range pour évaluer le niveau d'aventure -->
+          					Comment évaluez-vous votre niveau d'aventure ? 
+          					Pas bon <input type="range" name="niveau-aventure" min="1" max="10"> Très bon
+          				</label>
+          					Pour quelle(s) visite(s) êtes-vous intéressés ?
+    	  					<ul><!-- Liste de cases à cocher pour les types de visites -->
+    	  						<li><label><input type="checkbox" name="adeux">Tours à deux</label></li>
+    	  						<li><label><input type="checkbox" name="pg">Tours dans des petites groupes</label></li>
+    	  						<li><label><input type="checkbox" name="safari">Safari</label></li>
+    	  						<li><label><input type="checkbox" name="nature">Nature</label></li>
+    	  						<li><label><input type="checkbox" name="insolite">Insolite</label></li>
+    	  						<li><label><input type="checkbox" name="confort">Version confort</label></li>
+    	 				 	</ul>
+			</fieldset>
+        		<fieldset>
+         			<legend>Posez des questions :</legend>
+          				<label><!-- Zone de texte pour poser des questions -->
+          					<textarea cols="61" rows="10" name="motivation" placeholder="Est-ce-que vous avez des questions ? Posez-les ici !"></textarea>
+          				</label>
+          		</fieldset>
+    			<p class="but"><!-- Bouton de soumission du formulaire -->
+    				<input type="submit" value="Soumettre les informations">
+    			</p>
+    		</form>
+    	</aside>
+	<footer> <!-- Pied de page -->
+		<p>Copyright &copy; Andrea Gjoreska, étudiante de L1 de l'<abbr title="Universite Caen Normandie">UCN</abbr>. Tous droits réservés.</p> <!-- Mention de droits d'auteur -->
+	</footer>
+</body>
+</html>
